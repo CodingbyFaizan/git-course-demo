@@ -1,5 +1,22 @@
 import java.sql.*;
 
+// Steps to followed for JDBC 
+
+// Import package java.sql.*;
+// Load & register the driver 
+// establish the connection (url,uname,pass)
+// create a statement 
+// execute the qurey
+// process the result 
+// close
+
+// We have 4 types of sql query
+// DDL 
+// DML  - executeUpdate()
+// DQL  - executeQuery()
+// TQL
+
+
 public class TestJDBC {
 
     public static void main(String[] args) throws Exception {
